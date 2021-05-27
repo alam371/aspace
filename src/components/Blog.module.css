@@ -1,0 +1,16 @@
+.blogWrapper {
+    padding: 10px 100px;
+    border-top: 2px solid #000000;
+}
+
+.titleText{
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0px;
+    padding: 30px;
+}
+
+.blogWrapper p {
+    text-align: left;
+}
+

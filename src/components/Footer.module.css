@@ -1,0 +1,38 @@
+footer {
+    //border: 1px solid blue;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+footer li a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+footer li a:focus,
+footer li a:hover,
+footer li a:active {
+    border: 2px dotted #ffffff;
+}
+
+footer li {
+    list-style-type:none;
+    padding: 0px 0px 8px 0px;
+    margin: 0px;
+    text-align: left;
+}
+
+footer ul {
+    padding-left: 0px;
+}
+
+footer h3 {
+    text-align: left;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}

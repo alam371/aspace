@@ -1,0 +1,54 @@
+.productItemWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productItemWrapper li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 400px;
+    margin: 10px;
+    list-style: none;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.productItemWrapper img {
+    max-width: 350px;
+}
+
+.productItemWrapper .priceWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    height: 45px;
+}
+
+.productItemWrapper .priceWrapper span {
+    margin-right: 0px;
+    font-weight: 700;
+}
+
+.addToCartWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.addToCartWrapper .readMore {
+    margin: 10px;
+}
+
+.addToCartWrapper .addToCart {
+    margin: 10px;
+}
+
+.addToCartWrapper a {
+    color: black;
+    cursor: pointer;
+}

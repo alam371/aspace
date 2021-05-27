@@ -1,0 +1,82 @@
+header {
+    border-bottom: 2px solid #000000;
+}
+
+.mainNav {
+    /*border: 1px solid blue;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header ul a {
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header img {
+    max-width: 60px;
+}
+
+header .logo {
+    margin-left: 60px;
+}
+
+.counterWrapper {
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header ul a:hover,
+header ul a:focus {
+    text-underline-offset: 4px;
+    text-decoration: underline;
+}
+
+.counterWrapper button {
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #ffffff;
+    text-transform: uppercase;
+}
+
+.counterWrapper button:hover {
+    cursor: pointer;
+    border: 2px solid red;
+
+}
+
+.counterWrapper span {
+    border: 2px solid red;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.cartWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.cartWrapper p {
+    margin: 0px;
+}
+
+.counterWrapper .userLogin:hover,
+.counterWrapper .userLogin:hover {
+    border: 2px solid red;
+}
